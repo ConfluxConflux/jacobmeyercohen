@@ -118,7 +118,7 @@ window.SITE = {
           "fit": "cover"
         },
         {
-          "title": "Nice Numbers",
+          "title": "Number Theory Research",
           "role": "Research and writing",
           "dates": "2022–2023",
           "text": "I conducted independent number theory research and presented it to over 28,000 viewers for the Summer of Math Exposition.",
