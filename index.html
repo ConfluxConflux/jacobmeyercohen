@@ -117,6 +117,7 @@
         top(it) +
         '<div class="body">' +
           '<h3>' + (it.title || "") + '</h3>' +
+          (it.full ? '<p class="full">' + it.full + '</p>' : '') +
           (it.role || it.dates ? '<p class="role">' +
             (it.role ? '<span>' + it.role + '</span>' : '') +
             (it.dates ? '<span class="dates">' + it.dates + '</span>' : '') + '</p>' : '') +
