@@ -38,10 +38,31 @@
     <footer id="footer" class="footer"></footer>
   </main>
 
+  <button type="button" id="theme-btn" class="theme-btn" title="Cycle color theme">Theme</button>
+
   <script src="content.js"></script>
   <script>
   (function () {
     var s = window.SITE || {};
+    // Theme: ?theme= in the URL, else the visitor's last pick, else content.js.
+    var THEMES = ["default", "silver", "lavender", "seaglass", "midnight"];
+    var NAMES = { default: "Tan", silver: "Silver", lavender: "Lavender", seaglass: "Sea glass", midnight: "Midnight" };
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch (e) {}
+    var theme = new URLSearchParams(location.search).get("theme") || saved || s.theme || "default";
+    if (THEMES.indexOf(theme) < 0) theme = "default";
+    function applyTheme(t) {
+      if (t === "default") document.documentElement.removeAttribute("data-theme");
+      else document.documentElement.setAttribute("data-theme", t);
+      var b = document.getElementById("theme-btn");
+      if (b) b.textContent = "Theme: " + NAMES[t];
+    }
+    applyTheme(theme);
+    document.getElementById("theme-btn").onclick = function () {
+      theme = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+      applyTheme(theme);
+      try { localStorage.setItem("theme", theme); } catch (e) {}
+    };
     var $ = function (id) { return document.getElementById(id); };
     var external = function (h) { return /^https?:/.test(h); };
 

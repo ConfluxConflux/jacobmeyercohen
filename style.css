@@ -26,6 +26,31 @@
   }
 }
 
+/* ── Theme previews: ?theme=silver | lavender | seaglass | midnight ── */
+html[data-theme="silver"] {
+  --paper: #eceef2; --card: #f8f9fb; --tile: #e3e2ee; --rule: #d3d7df;
+  --ink: #1b1d26; --muted: #646876; --accent: #3a2d8f; --hover: #e4e7ed;
+}
+html[data-theme="lavender"] {
+  --paper: #eeecf5; --card: #faf9fd; --tile: #e4e0f2; --rule: #d9d4e8;
+  --ink: #1d1a2b; --muted: #6a6480; --accent: #3a2d8f;
+}
+html[data-theme="seaglass"] {
+  --paper: #e8efee; --card: #f7faf9; --tile: #dbe8e6; --rule: #ccdad8;
+  --ink: #17232a; --muted: #5a6b70; --accent: #1f5f6b; --mark: #c9e86a;
+}
+html[data-theme="midnight"] {
+  --paper: #15122a; --card: #1e1a38; --tile: #29244a; --rule: #332d57;
+  --ink: #ece9f7; --muted: #a39dc0; --accent: #c6e85a; --mark: #4b5a1c;
+}
+html[data-theme="midnight"] body {
+  background:
+    radial-gradient(1200px 600px at 15% -10%, rgba(64, 196, 196, 0.10), transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(110, 80, 220, 0.18), transparent 60%),
+    var(--paper);
+}
+html[data-theme="midnight"] .card { border-color: #332d57; }
+
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 
@@ -337,3 +362,6 @@ h3 {
 
   .copied:empty { display: none; }
 }
+
+.theme-btn { position: fixed; right: 16px; bottom: 16px; z-index: 10; font-family: var(--mono); font-size: 0.72rem; color: var(--ink); background: var(--card); border: 1px solid var(--rule); border-radius: 2px; padding: 6px 12px; cursor: pointer; }
+.theme-btn:hover { border-color: var(--accent); color: var(--accent); }
