@@ -69,10 +69,10 @@ window.SITE = {
       "title": "Puzzles",
       "items": [
         {
-          "title": "The New York Times",
+          "title": "<em>The New York Times Magazine</em>",
           "role": "Puzzle Author",
           "dates": "2023",
-          "text": "I created 16 original Upon Reflection logic puzzles, which appeared over 16 weeks in <em>The New York Times</em> magazine.",
+          "text": "I created 16 original Upon Reflection logic puzzles, which appeared over 16 weeks in <em>The New York Times Magazine</em>.",
           "href": "https://www.puzzlesforprogress.net/post/new-york-times-published",
           "image": "images/cards/nyt-logo.jpg",
           "fit": "cover"
