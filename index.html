@@ -45,8 +45,9 @@
   (function () {
     var s = window.SITE || {};
     // Theme: ?theme= in the URL, else the visitor's last pick, else content.js.
-    var THEMES = ["default", "silver", "lavender", "seaglass", "midnight"];
-    var NAMES = { default: "Tan", silver: "Silver", lavender: "Lavender", seaglass: "Sea glass", midnight: "Midnight" };
+    var THEMES = ["default", "silver", "glacier", "aurora", "lavender", "periwinkle", "dusk", "seaglass", "midnight", "twilight", "deepsea"];
+    var NAMES = { default: "Tan", silver: "Silver", glacier: "Glacier", aurora: "Aurora", lavender: "Lavender",
+      periwinkle: "Periwinkle", dusk: "Dusk", seaglass: "Sea glass", midnight: "Midnight", twilight: "Twilight", deepsea: "Deep sea" };
     var saved = null;
     try { saved = localStorage.getItem("theme"); } catch (e) {}
     var theme = new URLSearchParams(location.search).get("theme") || saved || s.theme || "default";

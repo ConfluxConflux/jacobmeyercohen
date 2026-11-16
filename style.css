@@ -26,30 +26,75 @@
   }
 }
 
-/* ── Theme previews: ?theme=silver | lavender | seaglass | midnight ── */
+/* ── Themes (cycle with the bottom-right button, or ?theme=name) ──
+   --glow is a background layer fixed behind the page. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--glow, none);
+}
+
 html[data-theme="silver"] {
   --paper: #eceef2; --card: #f8f9fb; --tile: #e3e2ee; --rule: #d3d7df;
-  --ink: #1b1d26; --muted: #646876; --accent: #3a2d8f; --hover: #e4e7ed;
+  --ink: #1b1d26; --muted: #646876; --accent: #3a2d8f;
+  --glow: linear-gradient(180deg, #f5f6f9 0%, #e7eaf0 100%);
 }
 html[data-theme="lavender"] {
   --paper: #eeecf5; --card: #faf9fd; --tile: #e4e0f2; --rule: #d9d4e8;
   --ink: #1d1a2b; --muted: #6a6480; --accent: #3a2d8f;
+  --glow: radial-gradient(1100px 620px at 100% -10%, rgba(130, 105, 230, 0.13), transparent 65%),
+          radial-gradient(900px 520px at -10% 110%, rgba(150, 130, 220, 0.10), transparent 65%);
 }
 html[data-theme="seaglass"] {
   --paper: #e8efee; --card: #f7faf9; --tile: #dbe8e6; --rule: #ccdad8;
   --ink: #17232a; --muted: #5a6b70; --accent: #1f5f6b; --mark: #c9e86a;
+  --glow: radial-gradient(1100px 620px at 0% -10%, rgba(60, 180, 175, 0.16), transparent 65%),
+          linear-gradient(180deg, transparent 50%, rgba(255, 255, 255, 0.35));
+}
+html[data-theme="aurora"] {
+  --paper: #eef0f4; --card: #fafbfd; --tile: #e4e3f2; --rule: #d6d9e3;
+  --ink: #1b1c27; --muted: #626679; --accent: #3a2d8f;
+  --glow: radial-gradient(900px 520px at 8% -8%, rgba(64, 190, 190, 0.17), transparent 65%),
+          radial-gradient(900px 520px at 96% -4%, rgba(120, 90, 230, 0.15), transparent 65%),
+          radial-gradient(800px 420px at 50% 112%, rgba(190, 225, 80, 0.12), transparent 65%);
+}
+html[data-theme="glacier"] {
+  --paper: #e9eef4; --card: #f8fafc; --tile: #dfe5f0; --rule: #d0d9e4;
+  --ink: #18202c; --muted: #5d6879; --accent: #2c4a8f;
+  --glow: linear-gradient(160deg, #f4f7fb 0%, #e4ebf3 55%, #e6e4f3 100%);
+}
+html[data-theme="periwinkle"] {
+  --paper: #e8e9f6; --card: #f9f9fe; --tile: #dfdff3; --rule: #d3d4ea;
+  --ink: #1b1b2e; --muted: #64658a; --accent: #3a2d8f;
+  --glow: radial-gradient(1200px 640px at 50% -25%, rgba(255, 255, 255, 0.75), transparent 70%),
+          linear-gradient(180deg, transparent 40%, rgba(120, 125, 220, 0.08));
+}
+html[data-theme="dusk"] {
+  --paper: #eeebf3; --card: #fbfafd; --tile: #e6e0ef; --rule: #dbd5e5;
+  --ink: #1e1a29; --muted: #6b6479; --accent: #4a2d8f;
+  --glow: linear-gradient(180deg, #f3f1f8 0%, #ebe6f2 55%, #f1e9ec 100%);
 }
 html[data-theme="midnight"] {
   --paper: #15122a; --card: #1e1a38; --tile: #29244a; --rule: #332d57;
   --ink: #ece9f7; --muted: #a39dc0; --accent: #c6e85a; --mark: #4b5a1c;
+  --glow: radial-gradient(1200px 600px at 15% -10%, rgba(64, 196, 196, 0.10), transparent 60%),
+          radial-gradient(900px 500px at 100% 0%, rgba(110, 80, 220, 0.18), transparent 60%);
 }
-html[data-theme="midnight"] body {
-  background:
-    radial-gradient(1200px 600px at 15% -10%, rgba(64, 196, 196, 0.10), transparent 60%),
-    radial-gradient(900px 500px at 100% 0%, rgba(110, 80, 220, 0.18), transparent 60%),
-    var(--paper);
+html[data-theme="deepsea"] {
+  --paper: #0e1d22; --card: #14282e; --tile: #1b343b; --rule: #24434b;
+  --ink: #e6f1f1; --muted: #93b0b3; --accent: #c6e85a; --mark: #3f5a1c;
+  --glow: radial-gradient(1100px 600px at 5% -10%, rgba(60, 200, 190, 0.16), transparent 62%),
+          radial-gradient(900px 520px at 105% 105%, rgba(90, 70, 200, 0.14), transparent 62%);
 }
-html[data-theme="midnight"] .card { border-color: #332d57; }
+html[data-theme="twilight"] {
+  --paper: #151933; --card: #1f2343; --tile: #2a2f57; --rule: #2f3460;
+  --ink: #eceaf7; --muted: #a4a6c8; --accent: #9fdbe6; --mark: #2d4f63;
+  --glow: linear-gradient(180deg, #1c2042 0%, #151432 55%, #110f22 100%),
+          radial-gradient(900px 500px at 85% 0%, rgba(140, 100, 230, 0.16), transparent 60%);
+}
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
