@@ -37,7 +37,7 @@ window.SITE = {
       "title": "AI safety",
       "items": [
         {
-          "title": "Machine Intelligence<br>Research Institute",
+          "title": "Machine Intelligence Research Institute",
           "role": "Governance Fellow",
           "dates": "2026",
           "text": "Researching policies for a world with stronger political will. I thought a lot about research secrecy, treaty design, and executive action.",
@@ -46,7 +46,7 @@ window.SITE = {
           "fit": "cover"
         },
         {
-          "title": "Stanford AI Governance<br>and Alignment",
+          "title": "Stanford AI Governance and Alignment",
           "role": "Co-Director",
           "dates": "2026",
           "text": "I led Stanford's AI safety club through a revitalization, overseeing its inaugural fellowship (which had over 250 applications).",
@@ -55,7 +55,7 @@ window.SITE = {
           "fit": "cover"
         },
         {
-          "title": "Mentorship for<br>Alignment Research Students",
+          "title": "Mentorship for Alignment Research Students",
           "role": "Fellow, Cambridge AI Safety Hub",
           "dates": "2025–2026",
           "text": "Our paper <a href=\"https://arxiv.org/pdf/2605.15183\" target=\"_blank\" rel=\"noopener\"><em>When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability</em></a> was accepted to the TPM workshop at UAI 2026.",
