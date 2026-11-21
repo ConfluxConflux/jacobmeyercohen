@@ -91,9 +91,16 @@
         b.type = "button"; b.textContent = l.label;
         b.onclick = function () {
           var msg = $("copied");
+          if (msg.classList.contains("show")) {
+            msg.classList.remove("show");
+            msg.innerHTML = "";
+            b.textContent = l.label;
+            return;
+          }
           msg.innerHTML = '<span class="addr"></span><span class="note"></span>';
           msg.firstChild.textContent = addr;
           msg.classList.add("show");
+          b.textContent = "Hide Email";
           copyText(addr).then(function () {
             msg.lastChild.textContent = "copied to your clipboard!";
           }, function () {});
@@ -174,12 +181,14 @@
     if (cut > 0 && cut < secs.length) {
       var hidden = secs.slice(cut);
       $("sections").innerHTML = render(secs.slice(0, cut)) +
-        '<div class="more-wrap"><button type="button" id="more" class="more" aria-expanded="false" aria-controls="more-sections">Show more</button></div>' +
-        '<div id="more-sections" hidden>' + render(hidden) + '</div>';
+        '<div id="more-sections" hidden>' + render(hidden) + '</div>' +
+        '<div class="more-wrap"><button type="button" id="more" class="more" aria-expanded="false" aria-controls="more-sections">Show more</button></div>';
       $("more").onclick = function () {
-        $("more-sections").hidden = false;
-        this.setAttribute("aria-expanded", "true");
-        this.parentNode.remove();
+        var open = $("more-sections").hidden;
+        $("more-sections").hidden = !open;
+        this.setAttribute("aria-expanded", String(open));
+        this.textContent = open ? "Show less" : "Show more";
+        if (!open) this.scrollIntoView({ block: "center" });
       };
     } else {
       $("sections").innerHTML = render(secs);

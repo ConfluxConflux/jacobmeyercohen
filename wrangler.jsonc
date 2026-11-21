@@ -1,0 +1,11 @@
+// Cloudflare Workers deploy config. Deploy with: npx wrangler deploy
+// Serves the static files in this folder (minus .assetsignore) at jacobmeyercohen.com.
+{
+  "name": "jacobmeyercohen",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "." },
+  "routes": [
+    { "pattern": "jacobmeyercohen.com", "custom_domain": true },
+    { "pattern": "www.jacobmeyercohen.com", "custom_domain": true }
+  ]
+}

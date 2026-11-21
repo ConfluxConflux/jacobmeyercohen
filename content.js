@@ -50,7 +50,7 @@ window.SITE = {
           "role": "Co-Director",
           "dates": "2026",
           "text": "I led Stanford AI Governance and Alignment through a revitalization, launching a new fellowship (which had over 250 applications).",
-          "href": "https://stanfordaialignment.org",
+          "href": "https://saga.stanford.edu",
           "image": "images/cards/saga.jpg",
           "fit": "cover"
         },
@@ -167,7 +167,7 @@ window.SITE = {
           "title": "Stanford University",
           "role": "On leave",
           "dates": "2024–",
-          "text": "I'm on leave from a Symbolic Systems major, concentrating in Human-Centered AI, and a Mathematics minor. I'm part of Stanford Abundance and People from Animal Welfare.",
+          "text": "I'm on leave from a Symbolic Systems major, concentrating in Human-Centered AI. I'm part of Stanford Abundance and People for Animal Welfare.",
           "href": "https://www.stanford.edu",
           "image": "images/cards/stanford.jpg",
           "fit": "cover"
@@ -207,5 +207,5 @@ window.SITE = {
       ]
     }
   ],
-  "footer": "This is my serious professional website. For a more whimsical experience, go to <a href=\"https://jacob.show\">jacob.show</a>."
+  "footer": "This is my serious professional website. For a more whimsical experience, go to <a href=\"https://jacob.show\" target=\"_blank\" rel=\"noopener\">jacob.show</a>."
 };

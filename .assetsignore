@@ -1,0 +1,13 @@
+# Files NOT uploaded to Cloudflare (only the public site goes up)
+.git
+.gitignore
+.assetsignore
+.DS_Store
+**/.DS_Store
+.wrangler
+wrangler.jsonc
+node_modules
+admin.html
+iea_files
+images/originals
+_*.html

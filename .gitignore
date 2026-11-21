@@ -3,3 +3,5 @@ admin.html
 iea_files/
 images/originals/
 _*.html
+.wrangler/
+node_modules/
