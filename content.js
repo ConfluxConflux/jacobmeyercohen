@@ -165,7 +165,7 @@ window.SITE = {
       "items": [
         {
           "title": "Stanford University",
-          "role": "On leave",
+          "role": "College Student",
           "dates": "2024–",
           "text": "I'm on leave from a Symbolic Systems major, concentrating in Human-Centered AI. I'm part of Stanford Abundance and People for Animal Welfare.",
           "href": "https://www.stanford.edu",
@@ -174,7 +174,7 @@ window.SITE = {
         },
         {
           "title": "Proof School",
-          "role": "High school",
+          "role": "High School Student",
           "dates": "2020–2024",
           "text": "I took thirteen college-level math courses, including Galois Theory, Complex Analysis, and Stochastic Processes. I graduated with a perfect 5.0 GPA.",
           "href": "https://www.proofschool.org",
