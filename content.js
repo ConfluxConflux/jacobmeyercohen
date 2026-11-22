@@ -104,7 +104,7 @@ window.SITE = {
           "title": "Manifold Markets",
           "role": "Election Columnist and More",
           "dates": "2024",
-          "text": "I covered the 2024 election for 20,000+ readers. I was also a site moderator, top-50 trader and market creator, and <a href=\"https://open.spotify.com/show/72FTi8OdEDoo7Xo0wHuXM5\" target=\"_blank\" rel=\"noopener\">podcast host</a>.",
+          "text": "I covered the 2024 election for 20,000+ readers. I was also a site moderator, top-50 trader and market creator, and <a href=\"https://open.spotify.com/show/72FTi8OdEDoo7Xo0wHuXM5\" target=\"_blank\" rel=\"noopener\">podcast cohost</a>.",
           "href": "https://manifold.markets",
           "image": "images/manifold.svg"
         },
