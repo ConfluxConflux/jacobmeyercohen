@@ -16,7 +16,7 @@ window.SITE = {
   "cardStyle": "banner",
   "name": "Jacob Meyer Cohen",
   "photo": "images/jacob.jpg",
-  "blurb": "Hi! I'm on leave from Stanford University, working to address civilization-scale risk from AI.<br>In the past, I was a political columnist for Manifold and a puzzle author for <em>The New York Times</em>.",
+  "blurb": "Hi! I'm on leave from Stanford University, working to address civilization-scale risk from AI.<br>In the past, I was an election columnist for Manifold and a puzzle author for <em>The New York Times</em>.",
   "links": [
     {
       "label": "Show/Copy Email",
