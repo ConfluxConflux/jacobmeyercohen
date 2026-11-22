@@ -87,20 +87,25 @@
         var addr = href.replace(/^mailto:/, "");
         var b = document.createElement("button");
         b.type = "button"; b.textContent = l.label;
+        var noteTimer;
         b.onclick = function () {
           var msg = $("copied");
+          clearTimeout(noteTimer);
           if (msg.classList.contains("show")) {
             msg.classList.remove("show");
             msg.innerHTML = "";
             b.textContent = l.label;
+            copyText(addr).catch(function () {});
             return;
           }
           msg.innerHTML = '<span class="addr"></span><span class="note"></span>';
           msg.firstChild.textContent = addr;
           msg.classList.add("show");
-          b.textContent = "Hide Email";
+          b.textContent = "Hide/Copy Email";
+          var note = msg.lastChild;
           copyText(addr).then(function () {
-            msg.lastChild.textContent = "copied to your clipboard!";
+            note.textContent = "copied to your clipboard!";
+            noteTimer = setTimeout(function () { note.classList.add("gone"); }, 5000);
           }, function () {});
         };
         $("links").appendChild(b);

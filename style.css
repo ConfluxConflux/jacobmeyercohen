@@ -193,7 +193,8 @@ h1 {
   transition: opacity 0.2s ease;
 }
 .copied.show { opacity: 1; }
-.copied .note { display: block; }
+.copied .note { display: block; transition: opacity 0.4s ease; }
+.copied .note.gone { opacity: 0; }
 .copied .addr { font-family: var(--mono); font-style: normal; font-size: 0.85rem; color: var(--ink); }
 
 /* ── Sections ───────────────────────────────────── */
