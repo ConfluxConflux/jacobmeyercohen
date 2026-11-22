@@ -132,6 +132,15 @@ window.SITE = {
       "title": "Math/CS teaching",
       "items": [
         {
+          "title": "National Math Stars",
+          "role": "Math Mentor",
+          "dates": "2025–",
+          "text": "I work super-part-time as a Math Mentor, spreading joyful math to kids who otherwise might not have access.",
+          "href": "https://www.nationalmathstars.org",
+          "image": "images/cards/nms.jpg",
+          "fit": "cover"
+        },
+        {
           "title": "Camp Lemma",
           "role": "Head Counselor",
           "dates": "2022–2025",
@@ -144,18 +153,9 @@ window.SITE = {
           "title": "Proof School CS Department",
           "role": "Assistant Teacher",
           "dates": "2023–2024",
-          "text": "I co-taught a yearlong sixth-grade intro Python class, including running my own game project. After graduating, I stayed on as a paid Faculty Consultant.",
+          "text": "I co-taught a yearlong sixth-grade Python class, including running a multiweek game project. After graduating, I stayed on as a paid Faculty Consultant.",
           "href": "https://www.proofschool.org",
           "image": "images/cards/proof-school.jpg",
-          "fit": "cover"
-        },
-        {
-          "title": "National Math Stars",
-          "role": "Math Mentor",
-          "dates": "2025–",
-          "text": "I work super-part-time as a Math Mentor, spreading joyful math to kids who otherwise might not have access.",
-          "href": "https://www.nationalmathstars.org",
-          "image": "images/cards/nms.jpg",
           "fit": "cover"
         }
       ]
