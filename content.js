@@ -40,7 +40,7 @@ window.SITE = {
           "title": "MIRI",
           "role": "Technical Governance Fellow",
           "dates": "2026",
-          "text": "Researching policies for a world with stronger political will. I thought a lot about research secrecy, treaty design, and executive action.",
+          "text": "My research focused on ambitious policy to reduce existential risk, spanning issues of research secrecy, treaty design, and executive-branch capabilities.",
           "href": "https://techgov.intelligence.org/",
           "image": "images/cards/miri.jpg",
           "fit": "cover"
