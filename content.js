@@ -81,7 +81,7 @@ window.SITE = {
           "title": "Puzzles for Progress",
           "role": "Sole Creator",
           "dates": "2020–2025",
-          "text": "Hundreds of original puzzles and a <a href=\"https://tinyurl.com/best-of-pfp\" target=\"_blank\" rel=\"noopener\">self-published compilation book</a>, fundraising for malaria nets.",
+          "text": "I composed hundreds of original puzzles and a <a href=\"https://tinyurl.com/best-of-pfp\" target=\"_blank\" rel=\"noopener\">self-published compilation book</a>, fundraising for malaria nets.",
           "href": "https://puzzlesforprogress.net",
           "image": "images/cards/book.jpg",
           "fit": "cover"
