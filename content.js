@@ -40,7 +40,7 @@ window.SITE = {
           "title": "MIRI",
           "role": "Technical Governance Fellow",
           "dates": "2026",
-          "text": "My research focused on ambitious policy to reduce existential risk, spanning issues of research secrecy, treaty design, and executive-branch capabilities.",
+          "text": "MIRI TGT pursues policy ideas that fully eliminate AI risk. My work focused on treaty design and the research secrecy-transparency tradeoff.",
           "href": "https://techgov.intelligence.org/",
           "image": "images/cards/miri.jpg",
           "fit": "cover"
