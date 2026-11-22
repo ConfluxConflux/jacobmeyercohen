@@ -87,7 +87,7 @@ window.SITE = {
           "fit": "cover"
         },
         {
-          "title": "Wordle Speedrunning",
+          "title": "Wordle",
           "role": "Speedrunner",
           "dates": "2022",
           "text": "I solved seven Wordles in seventeen seconds.",
