@@ -72,7 +72,7 @@ window.SITE = {
           "title": "The New York Times Magazine",
           "role": "Puzzle Author",
           "dates": "2023",
-          "text": "I created 16 original Upon Reflection logic puzzles, which appeared over 16 weeks in <em>The New York Times Magazine</em>.",
+          "text": "I created 16 original Upon Reflection logic puzzles under Will Shortz's mentorship, which aired over 16 weeks.",
           "href": "https://www.puzzlesforprogress.net/post/new-york-times-published",
           "image": "images/cards/nyt-logo.jpg",
           "fit": "cover"
