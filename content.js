@@ -166,7 +166,7 @@ window.SITE = {
         {
           "title": "Stanford University",
           "role": "College Student",
-          "dates": "2024–",
+          "dates": "2024–2026",
           "text": "I'm on leave from a Symbolic Systems major, concentrating in Human-Centered AI. I'm part of Stanford Abundance and People for Animal Welfare.",
           "href": "https://www.stanford.edu",
           "image": "images/cards/stanford.jpg",
