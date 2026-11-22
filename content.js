@@ -56,7 +56,7 @@ window.SITE = {
         },
         {
           "title": "MARS",
-          "role": "Fellow, Cambridge AI Safety Hub",
+          "role": "Research Fellow",
           "dates": "2025–2026",
           "text": "Our paper <a href=\"https://arxiv.org/pdf/2605.15183\" target=\"_blank\" rel=\"noopener\"><em>When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability</em></a> was accepted to the TPM workshop at UAI 2026.",
           "href": "https://caish.org/mars",
