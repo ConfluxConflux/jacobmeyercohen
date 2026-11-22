@@ -153,7 +153,7 @@ window.SITE = {
           "title": "Proof School CS Department",
           "role": "Assistant Teacher",
           "dates": "2023–2024",
-          "text": "I co-taught a yearlong sixth-grade Python class, including running a multiweek game project. After graduating, I stayed on as a paid Faculty Consultant.",
+          "text": "I co-taught a yearlong sixth-grade Python class. After graduating, I stayed on as a paid Faculty Consultant.",
           "href": "https://www.proofschool.org",
           "image": "images/cards/proof-school.jpg",
           "fit": "cover"
