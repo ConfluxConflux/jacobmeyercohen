@@ -40,7 +40,7 @@ window.SITE = {
           "title": "MIRI",
           "role": "Technical Governance Fellow",
           "dates": "2026",
-          "text": "My work focused on the tradeoff between AI research secrecy and AI research transparency, as well as treaty design and US executive authority.",
+          "text": "My work focused on the tradeoff between AI research secrecy and AI research transparency, as well as treaty design and US executive policy.",
           "href": "https://techgov.intelligence.org/",
           "image": "images/cards/miri.jpg",
           "fit": "cover"
