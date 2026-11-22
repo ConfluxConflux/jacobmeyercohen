@@ -119,9 +119,9 @@ window.SITE = {
         },
         {
           "title": "YouTube",
-          "role": "“Nice Numbers” Research",
+          "role": "Number Theory Research",
           "dates": "2022–2023",
-          "text": "I conducted independent number theory research and presented it to over 28,000 viewers for the Summer of Math Exposition.",
+          "text": "I conducted independent research into “nice numbers” and presented it to over 28,000 viewers for the Summer of Math Exposition.",
           "href": "https://beautifulthorns.wixsite.com/home/post/my-unlistenable-youtube-video-got-28-706-views",
           "image": "images/cards/nice-numbers.jpg",
           "fit": "cover"
